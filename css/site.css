@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../fonts/COMFORTAA.TTF');
+}
+
+* {
+    font-family: Comfortaa;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    margin: 10vh 10vw;
+    font-size: 1em;
+    min-height: 80vh;
+}
+/* Меню */
+.text_menu {
+    color: white;
+    background-color: rgb(29, 29, 29);
+    padding: 1vw 2vw;
+}
+
+.buttons {
+    position: fixed;
+    border: 2px solid rgb(29, 29, 29);
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons a {
+    border: 2px solid rgb(29, 29, 29);
+    color: black;
+    text-decoration: none;
+    padding: 1.5vh 2vw;
+    transition: 400ms;
+}
+
+.buttons a:hover {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    transition: 400ms;
+}

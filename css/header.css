@@ -1,0 +1,40 @@
+header{
+    position: fixed;
+    background-color: black;
+    padding: 1em;
+    padding-top: 1.2em;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: black;
+}
+
+.header_buttons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1vw;
+    margin-right: 3vw;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.3em;
+}
+
+header a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 7px 1.2vw;
+    transition: 500ms;
+}
+
+.header_button a {
+    border: 2px solid white;
+}
+
+.header_button a:hover{
+    background-color: white;
+    color: black;
+    transition: 500ms;
+}

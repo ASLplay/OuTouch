@@ -1,0 +1,36 @@
+
+
+/* Чилл зона */
+.chill_container {
+    margin-left: 15em;
+    width: 90vw;
+    border: 2px solid rgb(29, 29, 29);
+    background-color: rgb(230, 230, 230);
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100%;
+    padding-bottom: 100px;
+}
+
+.chill_container h1 {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 0;
+    margin-bottom: 10px;
+}   
+
+.videos {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.video {
+    margin: 10px;
+    width: 20vw;
+    height: 20vw;
+}

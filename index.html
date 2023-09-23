@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/site.css">
+    <title>OuTouch</title>
+
+    <!-- Подгрузка header и footer -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <!-- Конец подгрузки header и footer -->
+
+
+    
+</head>
+
+<body style="background-image: url(pictures/background.jpg); ">
+
+    <!--Хэдр-->
+    <div id="header"></div>
+
+    <main>
+        <!-- Меню с кнопками -->
+        <div class="buttons">
+            <div class="text_menu">Меню</div>
+            <a href="index.html">Главная</a>
+            <a href="#">Форум</a>
+            <a href="chill.html">Чилл</a>
+            <a href="http://outouch.ru">Аниме</a>
+            <a href="#">Фильмы и дорамы</a>
+            <a href="#">Игры</a>
+            <a href="#">ИИ Мику</a>
+            <div class="text_menu">Доп. Информация</div>
+            <a href="#">FAQ</a>
+            <a href="#">О НАС</a>
+        </div>
+
+        <!-- Страница для публикации -->
+        <div class="news_container">
+            <h1>НОВОСТИ</h1>
+            <div class="news_blocks">
+                <div class="news">
+                    <img src="news/miku_news.jpg" height="30%" width="30%">
+                    <div class="news_block_text">
+                        <h3>Мику в разработке</h3>
+                        Создание ИИ Мику началось! предположительная дата выхода запланирована на 2036 год. Заявил
+                        разработчик Vitoria. Ожидайте дальнейших новостей.
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="news_blocks">
+                <div class="news">
+                    <img src="news/miku_news.jpg" height="30%" width="30%">
+                    <div class="news_block_text">
+                        <h3>Мику в разработке</h3>
+                        Создание ИИ Мику началось! предположительная дата выхода запланирована на 2036 год. Заявил
+                        разработчик Vitoria. Ожидайте дальнейших новостей.
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </main>
+
+    <!--Футер-->
+    <div id="footer"></div>
+</body>
+
+</html>
