@@ -1,0 +1,35 @@
+
+
+/* Чилл зона */
+.error_ {
+    margin-left: 15em;
+    width: 90vw;
+    border: 2px solid rgb(29, 29, 29);
+    background-color: rgb(230, 230, 230);
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100%;
+    padding-bottom: 100px;
+}
+
+.error_ h1 {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 0;
+    margin-bottom: 10px;
+}   
+
+.text_error {
+    font-size: 2vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.text_error img {
+    object-fit: cover;
+    margin: 0 auto;
+width: 20vw;
+}
