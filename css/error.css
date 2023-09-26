@@ -1,8 +1,7 @@
 
 
 /* Чилл зона */
-.error_ {
-    margin-left: 15em;
+.error_container {
     width: 90vw;
     border: 2px solid rgb(29, 29, 29);
     background-color: rgb(230, 230, 230);
@@ -12,7 +11,7 @@
     padding-bottom: 100px;
 }
 
-.error_ h1 {
+.error_container h1 {
     background-color: rgb(29, 29, 29);
     color: white;
     text-align: center;

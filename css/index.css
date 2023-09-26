@@ -1,7 +1,6 @@
 
 /* Новости */
 .news_container{
-    margin-left: 15vw;
     width: 90vw;
     border: 2px solid rgb(29, 29, 29);
     background-color: rgb(230, 230, 230);
@@ -15,7 +14,7 @@
     color: white;
     text-align: center;
     font-size: 5vw;
-    ;margin-top: 0;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
