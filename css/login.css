@@ -15,7 +15,7 @@ main {
 
 .login_container label {
     font-size: 2vw;
-    padding: 10px 0;
+    padding: 1vw 0;
 }
 
 .login_container input {
@@ -23,16 +23,16 @@ background-color: rgb(29, 29, 29);
 outline: none;
 color: white;
 border: none;
-font-size: 1vw;
-padding: 10px 5px;
-width: 300px;
+font-size: 1.5vw;
+padding: 1vw 0.5vw;
+width: 30vw;
 text-align: center;
 }
 
 .login_container button {
-    margin-top: 20px;
-    font-size: 1vw;
-    padding: 10px 40px;
+    margin-top: 2vw;
+    font-size: 2vw;
+    padding: 1vw 4vw;
     background-color: rgb(29, 29, 29);
     color: white;
     transition: 500ms;
@@ -42,7 +42,7 @@ text-align: center;
 .login_container button:hover {
     background-color: white;
     color: rgb(29, 29, 29);
-    border: 1px solid rgb(29, 29, 29);
+    border: 0.1vw solid rgb(29, 29, 29);
     transition: 500ms;
     cursor: pointer;
 }

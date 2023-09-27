@@ -19,7 +19,7 @@ body{
 main{
     display: flex;
     margin: 15vh 5vw;
-    font-size: 1em;
+    font-size: 1vw;
     min-height: 80vh;
     justify-content: space-between;
 }
@@ -27,7 +27,7 @@ main{
 .text_menu {
     color: white;
     background-color: rgb(29, 29, 29);
-    padding: 20px 0;
+    padding: 0.7vw 0;
     font-size: 1vw;
     margin: 0;
 }
@@ -43,7 +43,7 @@ main{
     flex-wrap: wrap;
     width: 12%;
     position: sticky;
-    top: 100px;
+    top: 5vw;
     height: fit-content;
 }
 
@@ -67,12 +67,12 @@ main{
 }
 
 .container {
-    border: 2px solid rgb(29, 29, 29);
+    border: 0.2vw solid rgb(29, 29, 29);
     background-color: rgb(230, 230, 230);
     flex-direction: column;
     flex-wrap: wrap;
     min-height: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 10vw;
 }
 
 .container h1 {
@@ -81,5 +81,14 @@ main{
     text-align: center;
     font-size: 5vw;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 1vw;
 }   
+
+.news_container h1 {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 0;
+    margin-bottom: 0.1vw;
+}
