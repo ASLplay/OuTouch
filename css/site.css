@@ -73,6 +73,7 @@ main{
     flex-wrap: wrap;
     min-height: 100%;
     padding-bottom: 10vw;
+    max-height: fit-content;
 }
 
 .container h1 {
@@ -91,4 +92,9 @@ main{
     font-size: 5vw;
     margin-top: 0;
     margin-bottom: 0.1vw;
+}
+
+hr {
+    color: black;
+    border: 0.1vw solid rgb(29, 29, 29);
 }
