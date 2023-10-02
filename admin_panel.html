@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/admin_panel.css">
+    <title>OuTouch</title>
+
+    <!-- Подгрузка header и footer -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+            $("#buttons_container").load("buttons.html");
+        });
+    </script>
+    <!-- Конец подгрузки header и footer -->
+
+
+
+</head>
+
+<body style="background-image: url(pictures/background.jpg); ">
+
+    <!--Хэдр-->
+    <div id="header"></div>
+
+    <main>
+
+        <!-- Меню с кнопками -->
+        <div id="buttons_container"></div>
+
+        <!-- Страница -->
+
+        <div class="container">
+            <h1>Панель</h1>
+            <div class="add_posts">
+                <div class="add_post_container">
+                    <h1>Добавление поста</h1>
+                    <div>
+
+                        <p>Название</p>
+                        <input type="text">
+
+                        <p>Фоновое изображение (url)</p>
+                        <input type="url">
+
+                        <p>Тип новости</p>
+                        <select>
+                            <option>Общие</option>
+                            <option>Аниме</option>
+                            <option>Фильмы</option>
+                        </select>
+
+                        <p>Содержание</p>
+                        <textarea></textarea>
+                        <button>Добавить</button>
+                    </div>
+                </div>
+
+                <div class="add_video_chill">
+                    <h1>Добавить видео в Чилл</h1>
+                    <div>
+
+                        <p>Url видео для iframe</p>
+                        <input type="url">
+
+                        <iframe src="https://www.youtube.com/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                        <button>Добавить</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <!--Футер-->
+    <div id="footer"></div>
+</body>
+
+</html>
